@@ -4,7 +4,7 @@ body{
 img{
 	height: 15px;
 }
-page-header#h2{
+page-header#{
 	color: white;
 }
 ul{
@@ -18,7 +18,7 @@ div#container{
 	float: mid;
 }
 #jumbotron{
-	background-color: grey;
+	background-color: dark-grey;
 }
 div#c0de, #saas, #shoppin, #news, #sonstiges{ 
 	width: auto; 
