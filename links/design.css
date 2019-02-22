@@ -5,7 +5,7 @@ img{
 	height: 15px;
 }
 page-header#{
-	color: white;
+	text-color: white;
 }
 ul{
 	list-style: none;
@@ -18,7 +18,7 @@ div#container{
 	float: mid;
 }
 #jumbotron{
-	background-color: dark-grey;
+	background-color: darkgrey;
 }
 div#c0de, #saas, #shoppin, #news, #sonstiges{ 
 	width: auto; 
