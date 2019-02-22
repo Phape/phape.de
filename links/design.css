@@ -4,7 +4,7 @@ body{
 img{
 	height: 15px;
 }
-#page-header{
+h2#page-header{
 	text-color: white;
 }
 ul{
