@@ -2,7 +2,7 @@ body{
 	background-color: black;
 }
 img{
-	height: 15px;
+	height: 15px auto;
 }
 ul{
 	list-style: none;
@@ -10,13 +10,16 @@ ul{
 }
 div#container{
 	background-color: grey;
-	width:90%;
+	width:90% auto;
 	height: auto;
 	float: mid;
+}
+#jumbotron{
+	background-color: grey;
 }
 div#c0de, #saas, #shoppin, #news, #sonstiges{ 
 	width: auto; 
 	height: auto;
 	float: left;
-	margin: 1%;
+	margin: 1% auto;
 }
