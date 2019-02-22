@@ -1,0 +1,4 @@
+Hello you,
+this is a text I've written with very much love, dedication and effort, so it can fullfill special testing purposes. 
+An example would be to read the text to java via a bufferedReader or using urlopen in python.
+Good luck with this shit!

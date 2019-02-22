@@ -1,0 +1,21 @@
+body{
+	background-color: grey;
+}
+img{
+	height: 15px;
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+div#container{
+	width:90%;
+	height: auto;
+	float: mid;
+}
+div#c0de, #saas, #shoppin, #news, #sonstiges{ 
+	width: auto; 
+	height: auto;
+	float: left;
+	margin: 1%;
+}
