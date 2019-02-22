@@ -1,5 +1,5 @@
 body{
-	background-color: grey;
+	background-color: black;
 }
 img{
 	height: 15px;
@@ -9,6 +9,7 @@ ul{
 	padding-left: 0;
 }
 div#container{
+	background-color: grey;
 	width:90%;
 	height: auto;
 	float: mid;
