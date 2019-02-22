@@ -2,7 +2,10 @@ body{
 	background-color: black;
 }
 img{
-	height: 15px auto;
+	height: 15px;
+}
+h2{
+	color: white;
 }
 ul{
 	list-style: none;
@@ -10,7 +13,7 @@ ul{
 }
 div#container{
 	background-color: grey;
-	width:90% auto;
+	width:90%;
 	height: auto;
 	float: mid;
 }
@@ -21,5 +24,5 @@ div#c0de, #saas, #shoppin, #news, #sonstiges{
 	width: auto; 
 	height: auto;
 	float: left;
-	margin: 1% auto;
+	margin: 1%;
 }
