@@ -7,6 +7,9 @@ img{
 h2#page-header{
 	color: white;
 }
+h2{
+	color: rgb(3, 226, 14);
+}
 ul{
 	list-style: none;
 	padding-left: 0;
@@ -17,7 +20,7 @@ div#container{
 	float: mid;
 }
 div#c0de, #saas, #shoppin, #news, #sonstiges{ 
-	background-color: rgb(158, 157, 157);
+	background-color: rgb(55, 55, 55);
 	width: auto; 
 	height: auto;
 	float: left;
