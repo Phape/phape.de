@@ -10,6 +10,9 @@ h2#page-header{
 h2{
 	color: rgb(3, 226, 14);
 }
+a {
+	color: rgb(84, 236, 236)
+}
 ul{
 	list-style: none;
 	padding-left: 0;
