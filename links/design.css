@@ -11,7 +11,10 @@ h2{
 	color: rgb(3, 226, 14);
 }
 a {
-	color: rgb(84, 236, 236)
+	color: rgb(84, 236, 236);
+}
+p{
+	color: rgb(190, 42, 42);
 }
 ul{
 	list-style: none;
@@ -22,7 +25,7 @@ div#container{
 	height: auto;
 	float: mid;
 }
-div#c0de, #saas, #shoppin, #news, #sonstiges{ 
+div#c0de, #saas, #shoppin, #news, #sonstiges, #tools{ 
 	background-color: rgb(55, 55, 55);
 	width: auto; 
 	height: auto;
