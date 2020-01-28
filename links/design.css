@@ -6,6 +6,7 @@ img{
 }
 h2#page-header{
 	color: white;
+	text-align: center;
 }
 h2{
 	color: rgb(3, 226, 14);
@@ -20,15 +21,12 @@ ul{
 	list-style: none;
 	padding-left: 0;
 }
-div#container{
-	width:90%;
-	height: auto;
-	float: mid;
+div.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
-div #c0de, #saas, #shoppin, #news, #sonstiges, #tools, #music{ 
+div#c0de, #saas, #shoppin, #news, #sonstiges, #tools, #music{ 
 	background-color: rgb(55, 55, 55);
-	width: auto; 
-	height: auto;
-	float: left;
-	margin: 1%;
 }
