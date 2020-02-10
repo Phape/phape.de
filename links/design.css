@@ -27,6 +27,8 @@ div.container{
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-div#c0de, #saas, #shoppin, #news, #sonstiges, #tools, #music{ 
+div.jumbotron{
+	padding: 7px 30px 5px 25px;
+	margin: 5px;
 	background-color: rgb(55, 55, 55);
 }
