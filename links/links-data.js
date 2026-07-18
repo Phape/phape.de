@@ -1,4 +1,27 @@
+const PAPER_ICON =
+    "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23d32f2f'/%3E%3Cpath d='M8 6h11l5 5v15H8z' fill='%23fff'/%3E%3Cpath d='M19 6v5h5' fill='none' stroke='%23d32f2f' stroke-width='1.5'/%3E%3Cpath d='M11 21.7h2.4c1.9 0 3-1 3-2.7s-1.1-2.6-3-2.6H11zm1.7-1.4v-2.5h0.8c0.9 0 1.4 0.4 1.4 1.2s-0.5 1.3-1.4 1.3zm5.5 1.4h1.6v-2.1h1.1c1.7 0 2.9-0.9 2.9-2.4s-1.1-2.5-2.9-2.5H18.2zm1.6-3.4v-2.1h0.9c0.8 0 1.2 0.4 1.2 1s-0.4 1.1-1.2 1.1z' fill='%23d32f2f'/%3E%3C/svg%3E";
+
 window.linkCategories = [
+    {
+        id: "ai",
+        title: "Künstliche Intelligenz",
+        links: [
+            { title: "Tiktokenizer", url: "https://tiktokenizer.vercel.app/" },
+            { title: "BBYCROFT LLM", url: "https://bbycroft.net/llm" },
+            { title: "LM Studio", url: "https://lmstudio.ai/" },
+            { title: "Hyperbolic", url: "https://app.hyperbolic.xyz/" },
+            { title: "Together Playground", url: "https://api.together.xyz/playground" },
+            { title: "LMArena", url: "https://lmarena.ai/" },
+            { title: "FineWeb Blogpost", url: "https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1" },
+            { title: "The Llama 3 Herd of Models", url: "https://arxiv.org/abs/2407.21783" },
+            { title: "InstructGPT Paper (SFT/RLHF)", url: "https://arxiv.org/abs/2203.02155" },
+            { title: "DeepSeek-R1", url: "https://arxiv.org/abs/2501.12948" },
+            { title: "AlphaGo", url: "https://discovery.ucl.ac.uk/id/eprint/10045895/1/agz_unformatted_nature.pdf" },
+            { title: "Agent Skills by Addy Osmani", url: "https://github.com/addyosmani/agent-skills" },
+            { title: "System Prompts Leaks", url: "https://github.com/asgeirtj/system_prompts_leaks" },
+            { title: "AINews", url: "https://news.smol.ai/" },
+        ],
+    },
     {
         id: "news",
         title: "News",
@@ -67,6 +90,7 @@ window.linkCategories = [
             { title: "PDF drehen", url: "https://smallpdf.com/de/pdf-drehen" },
             { title: "WayBack Machine", url: "https://web.archive.org/" },
             { title: "draw.io", url: "https://www.draw.io/" },
+            { title: "Excalidraw", url: "https://excalidraw.com/" },
             { title: "Abfallkalender", url: "https://mankei.eu/abfallkalender/profile.php?id=amzn1.ask.account.AGW4BGVF3AX6QP6MHRD6AS4BSCJ5HCNC4G2VHYVYYGXRPUHLDJZ3EAITPWM2CVEEZOXPHMGLQMX76LIJTREREBJPXSCKFIAEQZQREZA32M7RUUDCAGMURYBODJBAJUWE5CTRPMFPSEP4OGOCSGKGGIVHD5JJOLK6YTTY7MHB7L4GSX3TDC6MYMDR3XELLOPYL6WEAGSQPHXCJII" },
             { title: "Statista", url: "https://de.statista.com/" },
             { title: "Temp Mail", url: "https://temp-mail.org/" },

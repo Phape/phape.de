@@ -238,13 +238,6 @@ input {
 	font-weight: 700;
 }
 
-.status-row__hint {
-	margin: 0;
-	font-size: 0.92rem;
-	color: var(--muted);
-	text-align: right;
-}
-
 .categories {
 	display: grid;
 	gap: 1rem;
@@ -372,10 +365,6 @@ input {
 	.status-row {
 		flex-direction: column;
 		align-items: flex-start;
-	}
-
-	.status-row__hint {
-		text-align: left;
 	}
 
 	.category__grid {
