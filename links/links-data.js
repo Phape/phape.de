@@ -20,6 +20,7 @@ window.linkCategories = [
             { title: "Agent Skills by Addy Osmani", url: "https://github.com/addyosmani/agent-skills" },
             { title: "System Prompts Leaks", url: "https://github.com/asgeirtj/system_prompts_leaks" },
             { title: "AINews", url: "https://news.smol.ai/" },
+            { title: "Trending Papers", url: "https://huggingface.co/papers/trending" },
         ],
     },
     {
