@@ -1,64 +1,64 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="de">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="description" content="Phapes Link-Portalseite">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="color-scheme" content="light dark">
-	<title>Phapes Links</title>
-	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="design.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Phapes persönliche Link-Portalseite">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Phapes Links</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="design.css">
 </head>
 
 <body>
-	<div class="page-shell">
-		<header class="hero">
-			<div class="hero__copy">
-				<p class="eyebrow">Phape / Links</p>
-				<h1>Deine Startseite</h1>
-				<p class="hero__lead">Schneller Zugriff auf News, Arbeit, Tools und alles andere, was du regelmäßig
-					brauchst.</p>
-			</div>
+    <div class="page-shell">
+        <header class="hero">
+            <div class="hero__copy">
+                <p class="eyebrow">Phape / Links</p>
+                <h1>Deine Startseite</h1>
+                <p class="hero__lead">Schneller Zugriff auf News, Arbeit, Tools und alles andere, was du regelmäßig
+                    brauchst.</p>
+            </div>
 
-			<div class="hero__controls">
-				<label class="search-bar" for="link-search">
-					<span class="search-bar__label">Suchen</span>
-					<input id="link-search" name="link-search" type="search" placeholder="Link, Kategorie oder Domain"
-						autocomplete="off" spellcheck="false">
-				</label>
+            <div class="hero__controls">
+                <label class="search-bar" for="link-search">
+                    <span class="search-bar__label">Suchen</span>
+                    <input id="link-search" name="link-search" type="search" placeholder="Link, Kategorie oder Domain"
+                        autocomplete="off" spellcheck="false">
+                </label>
 
-				<button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
-					<span class="theme-toggle__label">Theme</span>
-					<strong class="theme-toggle__value">Auto</strong>
-				</button>
-			</div>
-		</header>
+                <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+                    <span class="theme-toggle__label">Theme</span>
+                    <strong class="theme-toggle__value">Auto</strong>
+                </button>
+            </div>
+        </header>
 
-		<main class="content">
-			<div class="status-row">
-				<p class="results-count" id="results-count">Lade Links ...</p>
-				<p class="status-row__hint">Icons laden erst, wenn sie sichtbar werden.</p>
-			</div>
+        <main class="content">
+            <div class="status-row">
+                <p class="results-count" id="results-count">Lade Links ...</p>
+                <p class="status-row__hint">Icons laden erst, wenn sie sichtbar werden.</p>
+            </div>
 
-			<section id="categories" class="categories" aria-live="polite"></section>
+            <section id="categories" class="categories" aria-live="polite"></section>
 
-			<p id="empty-state" class="empty-state" hidden>Keine Links gefunden.</p>
-		</main>
-	</div>
+            <p id="empty-state" class="empty-state" hidden>Keine Links gefunden.</p>
+        </main>
+    </div>
 
-	<template id="link-card-template">
-		<a class="link-card" target="_blank" rel="noreferrer noopener">
-			<img class="link-card__icon" alt="" width="32" height="32" loading="lazy" decoding="async">
-			<div class="link-card__text">
-				<span class="link-card__title"></span>
-				<span class="link-card__host"></span>
-			</div>
-		</a>
-	</template>
+    <template id="link-card-template">
+        <a class="link-card" target="_blank" rel="noreferrer noopener">
+            <img class="link-card__icon" alt="" width="32" height="32" loading="lazy" decoding="async">
+            <div class="link-card__text">
+                <span class="link-card__title"></span>
+                <span class="link-card__host"></span>
+            </div>
+        </a>
+    </template>
 
-	<script src="links-data.js" defer></script>
-	<script src="app.js" defer></script>
+    <script src="links-data.js" defer></script>
+    <script src="app.js" defer></script>
 </body>
 
 </html>
