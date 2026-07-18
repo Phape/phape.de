@@ -19,7 +19,7 @@ window.linkCategories = [
             { title: "AlphaGo", url: "https://discovery.ucl.ac.uk/id/eprint/10045895/1/agz_unformatted_nature.pdf" },
             { title: "Agent Skills by Addy Osmani", url: "https://github.com/addyosmani/agent-skills" },
             { title: "System Prompts Leaks", url: "https://github.com/asgeirtj/system_prompts_leaks" },
-            { title: "Recent Changes by Martin Fowler", url: "https://martinfowler.com/recent-changes.html" },
+            { title: "Martin Fowler's Blog", url: "https://martinfowler.com/recent-changes.html" },
             { title: "Anthropic Docs", url: "https://docs.claude.com/" },
             { title: "Anthropic Engineering Blog", url: "https://www.anthropic.com/engineering" },
             { title: "Hugging Face Learn", url: "https://huggingface.co/learn" },
