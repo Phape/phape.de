@@ -1,131 +1,64 @@
 ﻿<!doctype html>
 <html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Portalseite von Phape">
-        <title>Phapes Links</title>
-        <link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Phapes Link-Portalseite">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="color-scheme" content="light dark">
+	<title>Phapes Links</title>
+	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" type="text/css" href="design.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    </head>
+</head>
+
 <body>
-	<!-- Diese Seite wurde mit Hilfe von Bootstrap gestaltet. -->
+	<div class="page-shell">
+		<header class="hero">
+			<div class="hero__copy">
+				<p class="eyebrow">Phape / Links</p>
+				<h1>Deine Startseite</h1>
+				<p class="hero__lead">Schneller Zugriff auf News, Arbeit, Tools und alles andere, was du regelmäßig
+					brauchst.</p>
+			</div>
 
-	<div class="page-header">
-		<h2 id="page-header">Phapes Portalseite</h2>
+			<div class="hero__controls">
+				<label class="search-bar" for="link-search">
+					<span class="search-bar__label">Suchen</span>
+					<input id="link-search" name="link-search" type="search" placeholder="Link, Kategorie oder Domain"
+						autocomplete="off" spellcheck="false">
+				</label>
+
+				<button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false">
+					<span class="theme-toggle__label">Theme</span>
+					<strong class="theme-toggle__value">Auto</strong>
+				</button>
+			</div>
+		</header>
+
+		<main class="content">
+			<div class="status-row">
+				<p class="results-count" id="results-count">Lade Links ...</p>
+				<p class="status-row__hint">Icons laden erst, wenn sie sichtbar werden.</p>
+			</div>
+
+			<section id="categories" class="categories" aria-live="polite"></section>
+
+			<p id="empty-state" class="empty-state" hidden>Keine Links gefunden.</p>
+		</main>
 	</div>
 
-<div class="container"> 
-	<div class="jumbotron" id="news">
-		<h2>news</h2>
-		<ul>
-			<li><a href="https://news.google.com/"><img src="https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w48"> Google News</a></li>
-			<li><a href="https://www.spiegel.de/"><img src="https://www.spiegel.de/favicon.ico"> Spiegel Online</a></li>
-			<li><a href="https://www.spiegel.de/international/"><img src="https://www.spiegel.de/favicon.ico"> International</a></li>
-			<li><a href="https://www.theguardian.com/international"><img src="https://www.theguardian.com/favicon.ico"> TheGuardian</a></li>
-    		<li><a href="https://www.handelsblatt.com/"><img src="https://www.handelsblatt.com/favicon.ico"> Handelsblatt</a></li>
-			<li><a href="https://www.onmsft.com/"><img src="https://www.onmsft.com/favicon.ico"> On Microsoft</a></li>
-    		<li><a href="https://blogs.windows.com/"><img src="https://www.microsoft.com/favicon.ico"> Windows Blogs</a></li>
-			<li><a href="https://www.win-10-forum.de/"><img src="https://www.win-10-forum.de/favicon.ico"> W10 Forum</a></li>
-			<li><a href="https://www.heise.de/"><img src="https://www.heise.de/favicon.ico"> Heise</a></li>
-			<li><a href="https://www.finanz-szene.de/"><img src="https://www.finanz-szene.de/wp-content/uploads/2019/04/fav_icon.png"> finanz-szene</a></li>
-			<li><a href="https://www.faz.net/"><img src="https://www.faz.net/favicon.ico"> FAZ</a></li>
-			<li><a href="https://www.rnz.de/"><img src="https://www.rnz.de/pu_rnz/images/favicon.ico"> RNZ</a></li>
-        </ul>
-	</div>
-	<div class="jumbotron" id="saas">
-		<h2>s<sub>p</sub>aas</h2>
-		<ul>
-			<li><a href="https://www.youtube.com/"><img src="https://www.youtube.com/favicon.ico"> YouTube</a></li>
-			<li><a href="https://www.netflix.com"><img src="https://www.netflix.com/favicon.ico"> Netflix</a></li>
-			<li><a href="https://www.amazon.de/Amazon-Video/b/ref=topnav_storetab_atv?node=3010075031&ie=UTF8"><img src="https://www.amazon.de/favicon.ico"> Prime Video</a></li>
-			<li><a href="https://www.twitch.tv/"><img src="https://static.twitchcdn.net/assets/favicon-32-d6025c14e900565d6177.png"> Twitch</a></li>
-			<li><a href="https://mixer.com/"><img src="https://mixer.com/_latest/assets/favicons/mstile-144x144.png"> Mixer</a></li>
-			<li><a href="https://reddit.com/"><img src="https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png"> Reddit</a></li>
-			<li><a href="https://web.whatsapp.com/"><img src="https://www.whatsapp.com/favicon.png"> WhatsApp</a></li>
-			<li><a href="https://neal.fun/"><img src="https://neal.fun/favicons/home.png"> neal.fun</a></li>
-			<li><a href="https://classicreload.com/"><img src="https://classicreload.com/sites/default/files/favicon.ico"> classicReload</a></li>
-		</ul>
-	</div>
-	<div class="jumbotron" id="c0de">
-		<h2>c0de</h2>
-		<ul>
-			<li><a href="https://github.com/"><img src="https://github.com/favicon.ico"> GitHub</a></li>
-			<li><a href="https://ccp.netcup.net/"><img src="https://www.customercontrolpanel.de/images/favicon-196x196.png"> Netcup CCP</a></li>
-			<li><a href="https://developer.microsoft.com/de-de/windows"><img src="https://c.s-microsoft.com/favicon.ico?v2"> MS Dev</a></li>
-			<li><a href="https://dev.azure.com/phape/"><img src="https://cdn.vsassets.io/content/icons/favicon.ico"> Azure DevOps</a></li>
-			<li><a href="https://c-area.host-unlimited.de/"><img src="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAAAAIHyAACA8gAAg/YAAJz9AACs6AAApvYAAIn6AAB/8wAAgPIAAID1AACS/QAAmf4AAIn6AAB/8gAAgfIAAIHyAACB/wAAgv8AAKDtAAB2bgAAMTIAAEBLAAChwAAAj/8AAH7/AACc+wAAlZgAAI12AACaxwAAkP8AAH//AACB/wAAf/8AAJb3AABLWAAAAAAAAAAAAAAAAAAAIg0AAJypAACu9wAAa14AAAQAAAAAAAAAFRQAAIm9AACH/wAAgf8AAIL/AAB8twAACBcAABE5AAAWTAAAAB8AAAAEAAAsGAAAg0oAAAMNAAAAIAAACS8AAAAPAABDUgAAif8AAH//AgKt8gEBSWgAAAgnAQF2zwEBgOsBAUKNAAAAGgAAAAEAAAAAAAAeOgEBVLMBAW/RAQEyagAAABkCApnSAgKk8wAABzsAAAEUAgIsRggIrP8GBo7/BgaW/wUFXG0AAAYAAAACAAUFb2AICLP/Bweg/wYGgL8AAAAOAAAFLAAABz4JCW3SBAQxcAEBCwwJCXZ0Dg6k2A0NpsIHB2NSAAAABAAAAAYBAQsHCQl9Yg0NqawHB1hDAAACJAgIX7wJCWnTEBCd/wwMcMAAAAAeAAAAAAAAAAEAAAADAAAADwQEJUcBARE4AAAACgAAAAAAAAAAAAAABwUFLV8QEJf/EBCY/xISlP8SEpT3BgYydgAAAB8AAAAXAAAAHAMDFlEREYjeDQ1ntwEBBjgAAAAdAAAAHQEBCT0ODm/JExOZ/xISk/8TE5P/ExOW/xERiPIKCkycBgYwbQkJQ4wQEHzjExOW/xMTlf8NDW3LCQlIkwkJR5IODnDQExOV/xMTlP8TE5H/FBSa/xUVov8ZGbj/GRm6/xgYtf8ZGbn/GRm5/xgYtP8YGLT/GRm6/xkZuv8ZGbr/GRm6/xgYsv8TE5T/Fxes/xERgucNDWXABwctXAcHLGEHBy1jBwcsYwcHLGIHByxiBwcsYgcHLGIHByxjBwcsYwcHLGEHBzF3ExOV/woKRpISEoz3Dw944AkJRp8ICD+fCAhAoAgIQKAICECgCAhAoAgIQKAICECgCAhAoAgIQKAICECgCQlEqxMTlf8LC1W7FBST3hUVmM0WFpvpFBSf/xQUnv8UFJ7/FBSe/xQUnv8UFJ7/FBSe/xQUnv8UFJ7/FBSe/xQUnv8TE5T/FBSc/wUFIoQAAAA+BQUigRQUnf8TE5T/ExOU/xMTlP8TE5T/ExOU/xMTlP8TE5T/ExOU/xMTlP8TE5T/ExOU/xMTlP8SEoz6EhKK9xISjPoTE5P/ExOS/xMTkv8TE5L/ExOS/xMTkv8TE5L/ExOS/xMTkv8TE5L/ExOS/xMTkv8TE5L/AAAAAAAAAAAcMAAAAAAAAACAAAABgAAAAAAAABAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="> Host Unlimited</a></li>
-			<li><a href="https://codesandbox.io/"><img src="https://codesandbox.io/favicon.ico"> CodeSandbox</a></li>
-		</ul>
-	</div>
-	<div class="jumbotron" id="shoppin">
-		<h2>shoppin'</h2>
-		<ul>
-			<li><a href="https://www.mydealz.de/"><img src="https://www.mydealz.de/favicon.ico"> mydealz</a></li>
-			<li><a href="https://www.amazon.de/"><img src="https://www.amazon.de/favicon.ico"> Amazon</a></li>
-			<li><a href="https://www.ebay.de/"><img src="https://www.ebay.de/favicon.ico"> ebay</a></li>
-			<li><a href="https://www.ebay-kleinanzeigen.de/"><img src="https://www.ebay-kleinanzeigen.de/static/img/favicon.1hf6kaeaeu89h.png"> Kleinanzeigen</a></li>
-			<hr>
-			<li><a href="https://app.n26.com/login"><img src="https://app.n26.com/favicon.ico"> N26</a></li>
-			<li><a href="https://www.vbkraichgau.de/banking-private/entry?"><img src="https://www.vbkraichgau.de/favicon.ico"> VB-Kraichgau</a></li>
-			<li><a href="https://www.paypal.com/signin?country.x=DE&locale.x=de_DE"><img src="https://www.paypal.com/favicon.ico"> PayPal</a></li>
-		</ul>
-	</div>
-	<div class="jumbotron" id="mon€y">
-		<h2>mon€y</h2>
-		<ul>
-			<li><a href="https://www.ls-x.de/de/aktien-filter"><img src="https://www.ls-x.de/media/site/favicon.ico"> LS Exchange</a></li>
-			<li><a href="https://www.deraktionaer.de/"><img src="https://www.deraktionaer.de/assets/images/icons/favicon-32x32.png"> Der Aktionär</a></li>
-		</ul>
-		
-	</div>
-	<div class="jumbotron" id="sonstiges">
-		<h2>sonstiges</h2>
-		<ul>
-			<li><a href="https://webapps.cofinpro.com/"><img src="https://webapps.cofinpro.com/img/favicon.png"> Cofinpro Portal</a></li>
-			<li><a href="http://studi-wiki.cofinpro.de/"><img src="https://www.cofinpro.de/favicon/favicon.ico"> Cofinpro Wiki</a></li>
-			<li><a href="https://moodle.dhbw.de/my/"><img src="https://moodle.dhbw.de/simplesaml/module.php/dhbwtheme/icons/favicon.ico"> DHBW Moodle</a></li>
-			<li><a href="https://rapla.dhbw-karlsruhe.de/rapla?page=calendar&user=wengler&file=wwi18B4"><img src="https://rapla.dhbw-karlsruhe.de/images/favicon.ico"> DHBW RaPla</a></li>
-			<li><a href="https://www.duolingo.com/"><img src="//d35aaqx5ub95lt.cloudfront.net/favicon.ico"> Duolingo</a></li>
-		</ul>
-	</div>
-	<div class="jumbotron" id="tools">
-		<h2>tools</h2>
-		<ul>
-			<li><a href="https://png2pdf.com/"><img src="https://png2pdf.com/images/png2pdf/favicon.png"> PDF-Tools</a></li>
-			<li><a href="https://www.sejda.com/crop-pdf"><img src="https://www.sejda.com/images/icon_128.png"> PDF Cropper</a></li>
-			<li><a href="https://smallpdf.com/de/pdf-drehen"><img src="https://smallpdf.com/favicon.png"> PDF drehen</a></li>
-			<li><a href="https://web.archive.org/"><img src="https://web.archive.org/_static/images/archive.ico"> WayBack Machine</a></li>
-			<li><a href="https://www.draw.io/"><img src="https://draw.io/favicon.ico"> draw.io</a></li>
-			<li><a href="https://mankei.eu/abfallkalender/profile.php?id=amzn1.ask.account.AGW4BGVF3AX6QP6MHRD6AS4BSCJ5HCNC4G2VHYVYYGXRPUHLDJZ3EAITPWM2CVEEZOXPHMGLQMX76LIJTREREBJPXSCKFIAEQZQREZA32M7RUUDCAGMURYBODJBAJUWE5CTRPMFPSEP4OGOCSGKGGIVHD5JJOLK6YTTY7MHB7L4GSX3TDC6MYMDR3XELLOPYL6WEAGSQPHXCJII"><img src="https://mankei.eu/abfallkalender/icondir/abfallkalender_logo.png"> Abfallkalender</a></li>
-			<li><a href="https://de.statista.com/"><img src="https://cdn.statcdn.com/static/favicon.svg"> Statista</a></li>
-			<li><a href="https://temp-mail.org/"><img src="https://temp-mail.org/images/favicon.ico"> Temp Mail</a></li>
-			<li><a href="https://www.photopea.com/"><img src="https://www.photopea.com/promo/thumb256.png"> Photopea</a></li>
-			<li><a href="https://bestsimilar.com/"><img src="https://bestsimilar.com/favicon.ico"> Best similar</a></li>
-			<li><a href="https://reelgood.com/"><img src="https://reelgood.com/favicon.ico"> Reelgood</a></li>
-			<li><a href="https://www.werstreamt.es/"><img src="https://www.werstreamt.es/favicon.ico"> WerStreamt.es?</a></li>
-		</ul>
-	</div>
-	<div class="jumbotron" id="music">
-		<h2>muzik</h2>
-		<ul>
-			<li><a href="https://open.spotify.com"><img src="https://open.spotify.com/favicon.ico"> Spotify</a></li>
-			<li><a href="https://www.noiiz.com/"><img src="https://www.noiiz.com/logo_gradient.png"> Noiiz</a></li>
-			<li><a href="https://www.whosampled.com/"><img src="https://www.whosampled.com/static/images/favicon.svg"> WhoSampled</a></li>
-			<li><a href="http://sortyourmusic.playlistmachinery.com/index.html"><img src="https://open.spotify.com/favicon.ico"> Spotify sort</a></li>
-			<li><a href="http://organizeyourmusic.playlistmachinery.com/"><img src="https://open.spotify.com/favicon.ico"> Spotify organizer</a></li>
-			<li><a href="https://spotifytools.phape.de"><img src="https://spotifytools.phape.de/static/images/favicon.svg"> SpotifyTools</a></li>
-		</ul>
-	</div>
-		
-</div>
-	
-	
-	
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    
+	<template id="link-card-template">
+		<a class="link-card" target="_blank" rel="noreferrer noopener">
+			<img class="link-card__icon" alt="" width="32" height="32" loading="lazy" decoding="async">
+			<div class="link-card__text">
+				<span class="link-card__title"></span>
+				<span class="link-card__host"></span>
+			</div>
+		</a>
+	</template>
+
+	<script src="links-data.js" defer></script>
+	<script src="app.js" defer></script>
 </body>
+
 </html>
