@@ -26,6 +26,7 @@ window.linkCategories = [
             { title: "Two Minute Papers", url: "https://www.youtube.com/@TwoMinutePapers" },
             { title: "AINews", url: "https://news.smol.ai/" },
             { title: "Trending Papers", url: "https://huggingface.co/papers/trending" },
+            { title: "Artificial Analysis", url: "https://artificialanalysis.ai/" },
         ],
     },
     {
