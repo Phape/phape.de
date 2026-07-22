@@ -70,6 +70,7 @@ window.linkCategories = [
         title: "Shopping & Finanzen",
         links: [
             { title: "mydealz", url: "https://www.mydealz.de/" },
+            { title: "Cheap Charts", url: "https://www.cheapcharts.com/de" },
             { title: "Amazon", url: "https://www.amazon.de/" },
             { title: "ebay", url: "https://www.ebay.de/" },
             { title: "Kleinanzeigen", url: "https://www.ebay-kleinanzeigen.de/" },
